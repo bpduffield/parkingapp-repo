@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionUnitTestDuffield\\DiscussionUnitTestDuffield.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionMVCAppDuffield\\DiscussionMVCAppDuffield.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionMVCAppDuffield\\DiscussionMVCAppDuffield.csproj",
+        "projectName": "DiscussionMVCAppDuffield",
+        "projectPath": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionMVCAppDuffield\\DiscussionMVCAppDuffield.csproj",
+        "packagesPath": "C:\\Users\\duffi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionMVCAppDuffield\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duffi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GoogleApi": {
+              "target": "Package",
+              "version": "[3.10.4, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "cloudscribe.Pagination.Models": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "cloudscribe.Web.Pagination": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionUnitTestDuffield\\DiscussionUnitTestDuffield.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionUnitTestDuffield\\DiscussionUnitTestDuffield.csproj",
+        "projectName": "DiscussionUnitTestDuffield",
+        "projectPath": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionUnitTestDuffield\\DiscussionUnitTestDuffield.csproj",
+        "packagesPath": "C:\\Users\\duffi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionUnitTestDuffield\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duffi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionMVCAppDuffield\\DiscussionMVCAppDuffield.csproj": {
+                "projectPath": "C:\\Users\\duffi\\source\\repos\\MIST450Duffield\\DiscussionSolutionDuffield\\DiscussionMVCAppDuffield\\DiscussionMVCAppDuffield.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

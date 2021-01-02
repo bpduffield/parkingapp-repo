@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscussionMVCAppDuffield", "DiscussionMVCAppDuffield\DiscussionMVCAppDuffield.csproj", "{4318441A-61D9-45C7-BA15-E7C219C4AE87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscussionUnitTestDuffield", "DiscussionUnitTestDuffield\DiscussionUnitTestDuffield.csproj", "{ECF2D411-04F8-4608-8678-57F98B168390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4318441A-61D9-45C7-BA15-E7C219C4AE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4318441A-61D9-45C7-BA15-E7C219C4AE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4318441A-61D9-45C7-BA15-E7C219C4AE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4318441A-61D9-45C7-BA15-E7C219C4AE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF2D411-04F8-4608-8678-57F98B168390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF2D411-04F8-4608-8678-57F98B168390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF2D411-04F8-4608-8678-57F98B168390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF2D411-04F8-4608-8678-57F98B168390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB73E070-F590-4E15-A089-0ADDC677EAC3}
+	EndGlobalSection
+EndGlobal

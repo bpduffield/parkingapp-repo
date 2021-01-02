@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Lot>
+@{
+    ViewData["Title"] = "List All Lots";
+}
+
+<h1>Listing of All Lots</h1>
+
+<table class="table table-bordered table-striped">
+      <thead>
+          <tr>
+              <th>Lot Number</th>
+              <th>Lot Name</th>
+              <th>Lot Address</th>
+              <th>Lot Type: TypeOfDay - StartTime and EndTime</th>
+          </tr>
+      </thead>
+
+      <tbody>
+          @foreach (Lot eachLot in Model)
+          {
+            <tr>
+                <td>@eachLot.LotNumber</td>
+                <td>@eachLot.LocationName</td>
+                <td>@eachLot.LotAddress</td>
+                <td>
+                    @foreach(LotStatus eachLotStatus in eachLot.LotStatuses)
+                    {
+                        @(eachLotStatus.LotType.LotTypeName + "on" + eachLotStatus.TypeOfDay + "from" + eachLotStatus.StartTime.TimeOfDay + "to" + eachLotStatus.EndTime.TimeOfDay)<br/>
+                    }
+                </td>
+            </tr>
+          }
+      </tbody>
+</table>
+

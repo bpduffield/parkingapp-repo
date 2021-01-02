@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DiscussionMVCAppDuffield.Models.Permit>
+
+@{
+    ViewData["Title"] = "ListAllPermits";
+}
+
+<h1>ListAllPermits</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PermitAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PStartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PEndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WVUEmployee)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PermitAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PStartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PEndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WVUEmployee.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PermitID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PermitID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PermitID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

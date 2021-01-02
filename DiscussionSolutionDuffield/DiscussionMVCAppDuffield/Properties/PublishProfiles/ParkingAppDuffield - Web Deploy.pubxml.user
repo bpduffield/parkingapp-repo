@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABOVCA/+fiEi28aIsGOS6NQAAAAACAAAAAAAQZgAAAAEAACAAAABZ1B6miAG1XnFTXDuRaif+pOycYXwWpygbmCF9/F9HAQAAAAAOgAAAAAIAACAAAAD38AHLCN4Vdars0wchm1NAO1iZ6SiSuii0h06JY7lgEYAAAABBpN4U/oY9n6lkxq2oAExDiegmAPAJrJ+vZvDY+OhaXSJK76Sc20fbhefW0IluovHbSIvnY1cdwT240vAcNxtfUekRhFekUcUSRyMaFoyFrfQNr+sN540Np1AqInbUe8PmO94G9UPcDNN993jx9GM/ZLJcXUOzjEtgx59O1WcikUAAAACTVI66r5CqYrE0IrSqE60e6FsbG7GsHt6RMZaTYdiGqIqn65zy9C8k+vLaI8nkXsVuBS6DnT+BTaT2PcCdrWKq</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=157.182.146.198%3bDatabase=SP2020DiscussionBrian%3buid=SP2020Brian%3bpassword=bpduffield%40mix.wvu.edu%242020%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

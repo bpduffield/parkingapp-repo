@@ -1,0 +1,47 @@
+﻿@model AppUserSearchViewModel
+@{
+    ViewData["Title"] = "Search App Users";
+}
+
+<h1>Search App Users</h1>
+
+
+<form asp-controller="AppUsers" asp-action="SearchAppUsers" method="post">
+  
+
+    <div class="form-group">
+        <label>Optionally select a user type</label>
+        <select asp-for="appUserType" class="form-control">
+            <option value="">None</option>
+            <option value="Visitor">Visitor</option>
+            <option value="WVUEmployee">WVUEmployee</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Search Users</button>
+
+</form>
+
+@*Result section follows*@
+
+@if (Model.AppUserSearchResult != null)
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>User Full Name</th>
+                <th>User Type</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (ApplicationUser eachUser in Model.AppUserSearchResult)
+            {
+                <tr>
+                    <td>@eachUser.FullName</td>
+                    <td>@eachUser.GetType().Name</td>                 
+                </tr>
+            }
+        </tbody>
+    </table>
+}
